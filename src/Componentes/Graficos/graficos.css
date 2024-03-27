@@ -1,0 +1,33 @@
+.grafico{
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 5px;
+}
+
+.contenedor-preocupaciones-grales{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contenedor-subtitulo-grafico-preocupaciones{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.subtitulo-preocupaciones{
+    font-weight: 400;
+    font-size: 20px;
+ 
+}
+
+.contenedor-climasocial{
+    display: flex;
+    justify-content: space-around;
+    gap:9rem;
+    margin: 0rem 1rem 0rem 1rem;
+}
+.bar-climasocial{
+    width: 80% !important;
+}

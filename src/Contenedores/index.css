@@ -1,0 +1,211 @@
+.nav-propio{
+    justify-content: start !important;
+
+    padding: 0px 0px 0px 0px !important;
+}
+
+.navbar .bg-body-tertiary{
+    padding: 0px 0px 0px 0px !important;
+    background-color: #efefef;
+}
+
+.navbar-app{
+    background-color: #efefef;
+    padding: 0px 0px 0px 0px !important;   
+}
+
+.selector-filtros-predictivos{
+    width: 100%;
+
+}
+
+.filtros-selectores{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.columna-filtros-1{
+    width: 80%;
+}
+
+.columna-filtros-2{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 45px 0px 10px;
+    width: 20%;
+    align-items: center;
+ 
+}
+
+.contenedor-filtros{
+    display: flex;
+    margin-left: 1rem;
+}
+
+
+  .bloque-filtros > div {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+.selector-filtro-titulo{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.contenedor-filtros-selectores{
+    display: flex;
+}
+
+.subtitulo{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 1rem 0rem 2rem 0rem;
+    
+}
+
+
+.contenedor-mapa{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap:1rem
+}
+
+.grafico-100{
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(224,224,224,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(224,224,224,1);
+    box-shadow: 10px 10px 5px 0px rgba(224,224,224,1);
+}
+
+.tabs{
+    margin:0rem 1rem 0rem 1rem;
+    color:#00000086 !important;
+font-weight: 600;
+}
+
+.ant-statistic-content-value-int{
+    font-size: 3rem !important;
+}
+
+.tabs .ant-tabs-ink-bar {
+    background-color: #fa6400; /* Cambia este valor al color que prefieras */
+   
+  }
+
+.mapas1-2{
+    display: flex;
+}
+
+.mapa1{
+    width: 100%;
+    height: 100%;
+    margin-left: 4%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(224,224,224,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(224,224,224,1);
+    box-shadow: 10px 10px 5px 0px rgba(224,224,224,1);
+}
+
+.mapa2{
+    width: 100%;
+    height: 100%;
+    margin-right: 4%; 
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(224,224,224,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(224,224,224,1);
+    box-shadow: 10px 10px 5px 0px rgba(224,224,224,1);
+}
+
+
+
+.titulo-mapa{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    gap:1rem
+}
+
+.tabla{
+    margin-top: 1rem;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+
+.titulo-boton{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.contenedor-graficos-indicadores{
+    margin:1rem;
+ 
+}
+
+.colapse{
+    margin-bottom: 2rem;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(224,224,224,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(224,224,224,1);
+    box-shadow: 10px 10px 5px 0px rgba(224,224,224,1);
+    background-color: #fa6400;
+
+}
+
+
+.ant-float-btn-body{
+    background-color: #fa6400 !important;
+}
+.ant-float-btn-body:hover{
+    background-color: #9d9d9d !important;
+}
+
+.botones-app{
+    background-color: #fa6400 !important;
+}
+
+.botones-app:hover{
+    background-color: #9d9d9d !important;
+}
+
+.colapse-filtros {
+    background-color: #fa6400;
+    
+}
+
+img{
+width: 100%;
+}
+
+.ant-collapse-header{
+    color:white !important;
+    font-weight: 600;
+}
+
+
+
+.contenedor-sociodemograficos{
+    display: flex;
+    justify-content: space-between;
+    gap:2rem
+}
+
+.graficos-sociodemograficos{
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 1000px) {
+    .contenedor-sociodemograficos{
+
+        flex-wrap: wrap;
+    }
+}
